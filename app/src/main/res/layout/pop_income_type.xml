@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#666666"
+    android:divider="@drawable/black_diver"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/tv_type_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:text="日统计"/>
+    <TextView
+        android:id="@+id/tv_type_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:text="周统计"/>
+    <TextView
+        android:id="@+id/tv_type_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:text="供应商统计"/>
+
+</LinearLayout>
